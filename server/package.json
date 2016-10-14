@@ -1,0 +1,34 @@
+{
+    "name": "jm-gameserver",
+    "version": "0.0.1",
+    "description": "gameserver template for pomelo",
+    "main": "./app",
+    "scripts": {
+        "test": "node ./test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jm-root/jm-gameserver.git"
+    },
+    "keywords": [
+        "javascript",
+        "jm-gameserver",
+        "gameserver"
+    ],
+    "author": "Jeff YU",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jm-root/jm-gameserver/issues"
+    },
+    "homepage": "https://github.com/jm-root/jm-gameserver",
+    "dependencies": {
+        "pomelo":"*",
+        "toobusy-js": "*",
+        "bluebird": "*",
+        "jm-common":"*",
+        "jm-ecs":"*",
+        "jm-sdk-core":"*",
+        "jm-sso":"*"
+    }
+
+}

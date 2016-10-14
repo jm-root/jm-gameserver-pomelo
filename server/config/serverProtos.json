@@ -1,0 +1,26 @@
+{
+    "gate.gateHandler.queryConnector" : {
+        "optional uInt32 err" : 1,
+        "optional string msg" : 2,
+        "optional string host" : 3,
+        "optional uInt32 port" : 4
+
+    },
+    "connector.connectorHandler.connect" : {
+        "optional uInt32 err" : 1,
+        "optional string msg" : 2,
+        "optional string uid" : 3
+    },
+    "syncTime" : {
+        "required uInt32 runTime" : 1,
+        "optional uInt32 sysTime" : 2
+    },
+    "sysNotice" : {
+        "required uInt32 type" : 1,
+        "optional string title" : 2,
+        "optional string msg" : 3,
+        "optional string url" : 4,
+        "optional uInt32 value" : 5,
+        "optional uInt32 id" : 6
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"development": {
+		"dburi": "mongodb://localhost/test",
+		"mq": {
+			"url":"redis://localhost"
+		}
+	},
+
+	"production": {
+		"dburi": "mongodb://localhost/test",
+		"mq": {
+			"url":"redis://localhost"
+		}
+	}
+}

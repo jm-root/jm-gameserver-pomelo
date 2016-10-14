@@ -1,0 +1,9 @@
+{
+  "area": {
+    "components": {
+      "channel": {
+        "channelPrefix": "area_"
+      }
+    }
+  }
+}

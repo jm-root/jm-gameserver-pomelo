@@ -1,0 +1,21 @@
+{
+	"development": {
+		"sdk": {
+			"uri": "http://192.168.0.32:20200"
+		},
+		"user": {
+			"account": "cp",
+			"passwd": "123"
+		}
+	},
+
+	"production": {
+		"sdk": {
+			"uri": "http://192.168.0.32:20200"
+		},
+		"user": {
+			"account": "cp",
+			"passwd": "123"
+		}
+	}
+}

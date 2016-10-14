@@ -1,0 +1,41 @@
+{
+    "name": "jm-sdk-gameclient",
+    "version": "0.0.1",
+    "description": "sdk-gameclient for jm-gameserver",
+    "main": "./lib",
+    "scripts": {
+        "test": "node ./test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jm-root/jm-sdk-gameclient.git"
+    },
+    "keywords": [
+        "javascript",
+        "jm-sdk-gameclient",
+        "sdk-gameclient"
+    ],
+    "author": "Jeff YU",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jm-root/jm-sdk-gameclient/issues"
+    },
+    "homepage": "https://github.com/jm-root/jm-sdk-gameclient",
+    "dependencies": {
+        "jm-sdk-core":"*"
+    },
+    "devDependencies": {
+        "pomelo-cocos2d-js": "*",
+        "bluebird": "*",
+        "jshint": "*",
+        "gulp": ">=3.5.6",
+        "gulp-clean": ">=0.3.1",
+        "gulp-concat": ">=2.2.0",
+        "gulp-jshint": ">=1.5.1",
+        "gulp-rename": ">=1.2.0",
+        "gulp-sequence": ">=0.3.0",
+        "gulp-uglify": ">=0.3.1",
+        "gulp-util": ">=2.2.14"
+    }
+
+}

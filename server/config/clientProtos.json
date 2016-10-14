@@ -1,0 +1,8 @@
+{
+    "gate.gateHandler.queryConnector" : {
+        "required string token" : 1
+    }
+    ,"connector.connectorHandler.connect" : {
+        "required string token" : 1
+    }
+}
