@@ -1,0 +1,12 @@
+{
+  "components": [
+  ],
+
+  "factories": [
+  ],
+
+  "processors": [
+    "jm.ProcessorDefault"
+  ]
+
+}

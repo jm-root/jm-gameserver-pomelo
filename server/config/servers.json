@@ -1,0 +1,30 @@
+{
+  "development":{
+      "gate":[
+          {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 21000, "frontend": true,"args":"--debug=5858"}
+      ],
+      "auth": [
+          {"id": "auth-server-1", "host": "127.0.0.1", "port": 21050,"args":"--debug=5860"}
+      ],
+      "connector": [
+          {"id": "connector-server-1", "host": "127.0.0.1", "port": 21100, "clientPort": 21200, "frontend": true,"args":"--debug=5857"}
+      ],
+      "area":[
+          {"id": "area-server-1", "host": "127.0.0.1", "port": 21300,"args":"--debug=5859"}
+      ]
+  },
+  "production":{
+      "gate":[
+          {"id": "gate-server-1", "host": "127.0.0.1", "clientPort": 21000, "frontend": true, "max-connections": 500, "cpu": 0}
+      ],
+      "auth": [
+          {"id": "auth-server-1", "host": "127.0.0.1", "port": 21050, "cpu": 1}
+      ],
+      "connector": [
+          {"id": "connector-server-1", "host": "127.0.0.1", "port": 21100, "clientPort": 21200, "frontend": true, "max-connections": 100, "cpu": 2}
+      ],
+      "area":[
+          {"id": "area-server-1", "host": "127.0.0.1", "port": 21300, "cpu": 3}
+      ]
+  }
+}
