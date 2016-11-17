@@ -4217,6 +4217,7 @@ if ((typeof exports !== 'undefined' && typeof module !== 'undefined')) {
 
         onKick: function (msg) {
             logger.info('被服务器踢下线');
+            this.state = 'onKick';
             this.emit('onKick', msg);
         },
 
