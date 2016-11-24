@@ -1,6 +1,6 @@
 {
     "name": "jm-sdk-gameclient",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "sdk-gameclient for jm-gameserver",
     "main": "./lib",
     "scripts": {

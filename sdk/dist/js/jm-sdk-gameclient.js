@@ -4030,6 +4030,7 @@ if ((typeof exports !== 'undefined' && typeof module !== 'undefined')) {
 }
 
 (function () {
+    if(jm.sdk.gameclient) return;
     var sdk = jm.sdk;
     var $ = sdk.$;
     var ERR = sdk.consts.ERR;
