@@ -4,6 +4,7 @@ MAINTAINER Jeff YU, 2651339@qq.com
 
 RUN apk add --no-cache \
         sysstat \
+        util-linux \
     && apk add --no-cache --virtual .build-deps \
         binutils-gold \
         curl \
@@ -16,10 +17,9 @@ RUN apk add --no-cache \
         python \
         tar \
     && npm install -g npm \
-    && npm install -g npm \
     && npm install -g pomelo \
     && apk del .build-deps \
     && rm -rf /tmp/* /root/.npm
 
-WORKDIR /server
+WORKDIR /app
 CMD pomelo start -e production
