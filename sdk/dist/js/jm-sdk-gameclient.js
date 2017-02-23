@@ -4030,6 +4030,7 @@ if ((typeof exports !== 'undefined' && typeof module !== 'undefined')) {
 }
 
 (function () {
+    if(jm.sdk.gameclient) return;
     var sdk = jm.sdk;
     var $ = sdk.$;
     var ERR = sdk.consts.ERR;
@@ -4217,6 +4218,7 @@ if ((typeof exports !== 'undefined' && typeof module !== 'undefined')) {
 
         onKick: function (msg) {
             logger.info('被服务器踢下线');
+            this.state = 'onKick';
             this.emit('onKick', msg);
         },
 
