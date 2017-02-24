@@ -1,5 +1,5 @@
 # docker build -t jm-pomelo:alpine .
-FROM node:4-alpine
+FROM node:6-alpine
 MAINTAINER Jeff YU, 2651339@qq.com
 
 RUN apk add --no-cache \
@@ -16,7 +16,6 @@ RUN apk add --no-cache \
         make \
         python \
         tar \
-    && npm install -g npm \
     && npm install -g pomelo \
     && apk del .build-deps \
     && rm -rf /tmp/* /root/.npm
